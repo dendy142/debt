@@ -1,0 +1,21 @@
+{
+  "name": "telegram-debt-bot",
+  "version": "2.0.0",
+  "description": "A Telegram bot to manage debts with user linking, interaction, editing, reminders, and more.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "debt",
+    "finance"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "uuid": "^9.0.1"
+  }
+}

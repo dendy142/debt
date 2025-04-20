@@ -1,0 +1,164 @@
+{
+  "debts": {
+    "iOwe": [
+      {
+        "id": "69bf4b49-f608-49eb-9474-ab0bec1b5eb1",
+        "amount": 1000,
+        "currency": "KZT",
+        "dueDate": "11-11-2025",
+        "partyIdentifier": "@den_ukhov",
+        "partyUserId": null,
+        "status": "pending_confirmation",
+        "linkedDebtId": "1480ce85-869d-49b3-80f3-97cdf5bc1106",
+        "createdDate": "2025-03-29T19:21:28.424Z",
+        "pendingEdit": null,
+        "reminderSnoozedUntil": null
+      }
+    ],
+    "oweMe": [
+      {
+        "id": "1fb2547e-5e07-4cd3-a8b1-713371ec5532",
+        "amount": 5000,
+        "currency": "RUB",
+        "dueDate": "11-08-2025",
+        "partyIdentifier": "@den_ukhov",
+        "partyUserId": "6187892670",
+        "status": "pending_deletion_approval",
+        "linkedDebtId": "f79ffe52-c3d6-4342-ac56-951501693d41",
+        "createdDate": "2025-03-29T19:32:21.038Z",
+        "pendingEdit": null,
+        "reminderSnoozedUntil": null
+      }
+    ]
+  },
+  "history": [
+    {
+      "id": "d982d6ad-a197-43a2-b972-d9fd133a2155",
+      "linkedDebtId": null,
+      "partyIdentifier": "Витя",
+      "partyUserId": null,
+      "currency": "KZT",
+      "dueDate": "11-07-2025",
+      "resolvedDate": "2025-03-29T19:20:22.612Z",
+      "action": "Погашен частично",
+      "type": "oweMe",
+      "repaidAmount": 50,
+      "remainingAmount": 50
+    },
+    {
+      "id": "d982d6ad-a197-43a2-b972-d9fd133a2155",
+      "linkedDebtId": null,
+      "partyIdentifier": "Витя",
+      "partyUserId": null,
+      "currency": "KZT",
+      "resolvedDate": "2025-03-29T19:20:35.893Z",
+      "action": "Изменен",
+      "type": "oweMe",
+      "editedField": "amount",
+      "newValue": 10000,
+      "originalAmount": 50
+    },
+    {
+      "id": "d982d6ad-a197-43a2-b972-d9fd133a2155",
+      "amount": 10000,
+      "currency": "KZT",
+      "dueDate": "11-07-2025",
+      "partyIdentifier": "Витя",
+      "partyUserId": null,
+      "status": "manual",
+      "linkedDebtId": null,
+      "createdDate": "2025-03-29T19:19:16.947Z",
+      "pendingEdit": null,
+      "reminderSnoozedUntil": null,
+      "resolvedDate": "2025-03-29T19:20:49.819Z",
+      "action": "Удален",
+      "type": "oweMe"
+    },
+    {
+      "id": "63f4a3b2-12e0-43c0-9251-351f9080ed60",
+      "linkedDebtId": "64366d6d-9347-46e9-9958-373d63cc6a05",
+      "partyIdentifier": "@random_you",
+      "partyUserId": "479063344",
+      "currency": "RUB",
+      "dueDate": "11-11-2025",
+      "resolvedDate": "2025-03-29T19:25:14.833Z",
+      "action": "Погашен частично",
+      "type": "iOwe",
+      "repaidAmount": 16161,
+      "remainingAmount": 10000
+    },
+    {
+      "id": "63f4a3b2-12e0-43c0-9251-351f9080ed60",
+      "amount": 5000,
+      "currency": "RUB",
+      "dueDate": "11-11-2025",
+      "partyIdentifier": "@den_ukhov",
+      "partyUserId": "6187892670",
+      "status": "pending_deletion_approval",
+      "linkedDebtId": "64366d6d-9347-46e9-9958-373d63cc6a05",
+      "createdDate": "2025-03-29T19:24:45.137Z",
+      "pendingEdit": null,
+      "reminderSnoozedUntil": null,
+      "resolvedDate": "2025-03-29T19:39:54.053Z",
+      "action": "Удален",
+      "type": "iOwe"
+    },
+    {
+      "id": "930de685-01c8-4d4a-bf96-457922e131a4",
+      "amount": 666,
+      "currency": "RUB",
+      "dueDate": "10-10-2025",
+      "partyIdentifier": "@den_ukhov",
+      "partyUserId": "6187892670",
+      "status": "pending_deletion_approval",
+      "linkedDebtId": "0196267b-0ba2-42a1-b627-245595c2c3cf",
+      "createdDate": "2025-03-29T19:27:44.914Z",
+      "pendingEdit": null,
+      "reminderSnoozedUntil": null,
+      "resolvedDate": "2025-03-29T19:40:30.710Z",
+      "action": "Удален",
+      "type": "iOwe"
+    },
+    {
+      "id": "6a1a570e-20c6-465d-82d1-d2b2f2b16bab",
+      "amount": 555,
+      "currency": "KZT",
+      "dueDate": "11-11-2025",
+      "partyIdentifier": "@den_ukhov",
+      "partyUserId": "6187892670",
+      "status": "pending_deletion_approval",
+      "linkedDebtId": "364ae891-d474-4d57-b11d-1eb26b2aa1de",
+      "createdDate": "2025-03-29T19:28:42.604Z",
+      "pendingEdit": null,
+      "reminderSnoozedUntil": null,
+      "resolvedDate": "2025-03-29T19:40:47.430Z",
+      "action": "Удален",
+      "type": "iOwe"
+    }
+  ],
+  "settings": {
+    "username": "@random_you",
+    "defaultCurrency": "KZT",
+    "showNetBalance": false,
+    "remindersEnabled": true,
+    "reminderDaysBefore": 1,
+    "notificationSettings": {
+      "onNewPending": true,
+      "onAccepted": true,
+      "onRejected": true,
+      "onRepaid": true,
+      "onDeleteRequest": true,
+      "onDeleteConfirm": true,
+      "onDeleteReject": true,
+      "onEditRequest": true,
+      "onEditConfirm": true,
+      "onEditReject": true,
+      "onReminder": true
+    },
+    "displayStyle": "list",
+    "language": "ru"
+  },
+  "knownUsers": {
+    "6187892670": "@den_ukhov"
+  }
+}
